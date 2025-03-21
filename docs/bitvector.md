@@ -4,7 +4,7 @@
 The current DryadSynth is already embedded all the techniques mentioned in the paper [Enhanced Enumeration of Techniques for Syntax-Guided Synthesis of Bit-Vector Manipulations](https://dl.acm.org/doi/10.1145/3632913). To further configure the arguments mentioned in the paper, A TOML file can be passed into DryadSynth using the following command:
 
 ```bash
-DryadSynth [-B <config-file>] <sygus-if-file>
+dryadSynth [-B <config-file>] <sygus-if-file>
 ```
 
 In `src/meet-middle/config`, there are a lot of commonly used configuration files. 
